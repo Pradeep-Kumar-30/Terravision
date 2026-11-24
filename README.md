@@ -20,6 +20,14 @@
 
 TerraVision provides a simplified end-to-end workflow for processing images or video, training neural scene representations, visualizing them in the browser, evaluating results, rendering camera paths, and exporting geometry.
 
+## How NeRF Works
+
+The diagram below illustrates the general NeRF workflow: input images and camera poses are used to learn a 3D scene representation, which can then synthesize views from new camera positions.
+
+<p align="center">
+  <img src="docs/_static/imgs/nerf-workflow.png" alt="NeRF workflow from input camera images to a learned 3D scene and synthesized novel views" width="760">
+</p>
+
 ## Highlights
 
 - **NeRF and 3D Gaussian Splatting** - Train Nerfacto, vanilla NeRF, Instant-NGP, TensoRF, Splatfacto, and other included methods.
