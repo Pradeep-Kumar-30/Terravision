@@ -2,8 +2,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/_static/imgs/logo-dark.png">
-    <img alt="TerraVision" src="docs/_static/imgs/logo.png" width="560">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/_static/imgs/logo-dark.png.webp">
+    <img alt="TerraVision" src="docs/_static/imgs/logo.png.webp" width="560">
   </picture>
 </p>
 
@@ -253,10 +253,4 @@ Contributions are welcome. Open an issue or pull request for:
 
 Start with [the contributing guide](docs/reference/contributing.md).
 
-## License
 
-This project declares the Apache License 2.0 in `pyproject.toml`. Review the upstream and bundled dependencies before distributing a build.
-
-## Acknowledgments
-
-TerraVision is a fork-based development project within the broader open-source neural scene representation ecosystem. It builds on research and software including NeRF, Nerfacto, 3D Gaussian Splatting, gsplat, PyTorch, COLMAP, and the modular tooling established by the NerfStudio community.
